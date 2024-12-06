@@ -1,0 +1,192 @@
+.bg-color{
+    
+}
+/* Header Section Start */
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+h2 a{
+    color: #3A3A3A;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li a{
+    color: #3A3A3A;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(28, 237, 237);
+}
+
+/* Header Section End */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Camera Section Start */
+
+.container{    
+    /* margin-left: 215px; */
+}
+.Banner-container{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.Banner-Text{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 100px;
+    width: 50%;
+}
+.b-h1{
+    font-size: 52px;
+    font-weight:bold;
+    margin-bottom: 10px;
+    
+    /* width: 582px;
+    height: 133px; */
+}
+.b-p{
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 0px;
+    
+}
+.Banner-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #E02C6D;
+}
+.Banner-Image{
+    width: 50%;
+    margin: 50px 0 0 100px;
+}
+
+/* Camera Section End */
+/* Logo Section Start */
+
+.Logo-container{
+   margin-top: 60px;  
+}
+.Logo{    
+    text-align: center;    
+}
+.logo-image{
+    padding: 15px;
+}
+
+/* Logo Section End */
+/* Popular Section Start */
+
+.popular-h3{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
+.Popular-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5px;
+    margin-top: -40px;
+    /* justify-content: center; */
+}
+.container-pplr{
+    margin-top: 50px;
+    gap: 10px;
+    width: 250px;
+    margin-left: 110px;
+    
+}
+.pplr-h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.pplr-h5{
+    font-size: 24px;
+    font-weight: 100px;
+    margin-top:-25px;
+}
+.pplr-p{
+    margin-top: -15px;
+}
+.more{
+    color: red;
+    margin-top: 50px;
+    margin-left: 1275px;
+}
+
+/* Popular Section End */
+/* Feature Section Start */
+
+.Feature-container{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.Feature-Image{
+    
+}
+.Feature-Text{
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.F-h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.F-p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    /* font-weight: 100px; */
+}
+.Feature-btn{
+    color: white;
+    background-color: #E02C6D;
+    padding: 2px 5px 2px 5px;
+}
+
+/* Feature Section End */
+/* Influencer Section Start */
+
+.Inluencer-container{
+    text-align: center;
+    background-color: rgb(27, 9, 43);
+    margin: 30px -40px;
+}
+.Influencer{
+    padding: 50px;
+}
+.I-h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.I-p{
+    color: white;
+    font-size: 14px;
+}
+.Icon{
+
+}
+
+/* Influencer Section End */
